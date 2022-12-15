@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-size: 2rem; */
+}
+body {
+  padding: 5px 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header-text {
+  padding: 0.5rem 0.1rem;
+  color: red;
+  display: inline;
+}
+.links {
+  display: inline-block;
+  font-size: 5rem;
+}
+.links a {
+  vertical-align: top;
+}
+nav a {
+  font-size: 0.5rem;
+}
+.body-container {
+  display: grid;
+  grid-template-columns: 15% 50% 15%;
+  justify-content: space-between;
+}
+article img {
+  width: 100%;
+}
+article p {
+  align-self: center;
+}
+article a {
+  align-self: center;
+}
