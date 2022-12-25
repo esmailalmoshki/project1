@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #e8e7fa;
+  font-family: "Inter";
+}
+.main-text {
+  margin-bottom: 40px;
+  padding: 1% 1%;
+  font-family: "Inter";
+}
+.containor {
+  padding: 1% 4%;
+  display: grid;
+  min-width: 175px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  grid-gap: 5%;
+}
+.note {
+  /* border: 2px black solid; */
+  border-radius: 5%;
+  min-height: 10rem;
+  padding: 2rem 4em;
+  background-color: #fed273;
+  width: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* position: relative; */
+  /* gap: 10%; */
+}
+.title {
+  border: 1px solid black;
+  padding: 0.3rem 0.5rem;
+  width: 150px;
+  /* position: absolute; */
+  /* top: 40%; */
+}
+.text {
+  width: 150px;
+  border: 1px solid black;
+  padding: 0.3rem 0.5rem;
+  height: 150px;
+  overflow-x: hidden;
+}
+.btn {
+  background-color: #f78e69;
+  margin-top: 20px;
+  /* position: absolute; */
+  top: 2%;
+  right: 0;
+  border: none;
+  padding: 0.3rem 1rem;
+  /* :100% ; */
+  border-radius: 15px;
+  width: 100%;
+}
+.add-btn {
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* width: 100px; */
+  border: none;
+  color: rebeccapurple;
+  background-color: #bbd0ff;
+  text-align: center;
+}
+.add-btn:hover {
+  color: #bbd0ff;
+  background-color: rebeccapurple;
+}
